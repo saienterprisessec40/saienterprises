@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e3f2e1; /* Light green background */
+}
+
+.header {
+    background-color: #2c6e49; /* Dark green */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.whatsapp-button {
+    display: inline-block;
+    background-color: #25d366; /* WhatsApp green */
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.filter-container {
+    text-align: center;
+    padding: 20px;
+}
+
+input, select {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.product {
+    background: white;
+    padding: 15px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.product:hover {
+    transform: scale(1.05);
+}
+
+.product img {
+    width: 150px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.mrp {
+    text-decoration: line-through;
+    color: red;
+}
+
+.sale {
+    font-weight: bold;
+    color: green;
+}
+
+/* Scroll Indicator */
+#scroll-indicator {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 5px;
+    background-color: green;
+}
